@@ -39,6 +39,12 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
+## API DETAILS 
+## ) ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT ✅️
+
+API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.site")
+API_KEY = os.environ.get("SHRUTI_API_KEY", "YOUR_API_KEY")
+
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ShrutiSupportChat")
 
